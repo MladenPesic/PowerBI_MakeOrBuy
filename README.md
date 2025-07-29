@@ -24,7 +24,6 @@ Through dynamic parameterization, cost breakdown visualizations, and scenario pl
 ### 1. **Quote Exploration & Initial Setup**
 I began with the `Quotes` table containing supplier offers for various `Part_Numbers`, `Volumes`, `Unit_Cost`, and `Non_Recurring_Expenses`.
 
-- Changed summarization of `Volume` to *Don't Summarize*.
 - Formatted `Unit_Cost` and `Non_Recurring_Expenses` as currency ($, 2 decimals).
 - Created a column chart to show the number of quotes per part.
 - Introduced a slicer for `Part_Number` and filtered visuals accordingly.
